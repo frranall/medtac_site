@@ -1,0 +1,48 @@
+
+/* Font principale */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #121212;
+    color: #f8f9fa;
+}
+
+/* Navbar logo */
+.navbar-brand img,
+.img1 {
+    max-height: 160px;
+    object-fit: contain;
+}
+
+/* Hover sulle card */
+.card:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
+/* Immagini nel portfolio */
+#portfolio img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+#portfolio img:hover {
+    transform: scale(1.05);
+}
+
+/* Titoli */
+h1, h2, h3, h5 {
+    color: #ffffff;
+}
+
+/* Link */
+a {
+    color: #ffc107;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}

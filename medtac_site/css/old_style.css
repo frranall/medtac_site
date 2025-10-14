@@ -1,0 +1,19 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
+img {
+    width: 200px; /* oppure qualsiasi dimensione desiderata */
+    height: 150px;
+    object-fit: cover; /* mantiene il rapporto visivo ritagliando l'immagine */
+}
+
+img1 {
+    width: auto; /* oppure qualsiasi dimensione desiderata */
+    height: auto;
+    }
